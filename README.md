@@ -1,5 +1,5 @@
 # Couchbase Market Basket Analysis with N1QL
-This repository is companion code for a blog post on our site: ADD.
+This repository is companion code for a blog post on our site: http://blogs.avalonconsult.com/blog/big-data/on-demand-recommendations-with-n1ql/
 
 This project is an all in one environment that sets up a Vagrant machine with Couchbase installed with a fresh bucket and primary index for running N1QL. It has a Python script that employs an example N1QL query for gathering product recommendations on the fly for a given product ID.
 
@@ -53,4 +53,4 @@ Once the data is in Couchbase, you can run the Python script to gether recommend
 python query.py 39
 ```
 
-You can access the Couchbase UI at retail.vagrant:8091 with credentials: couchbase//couchbase
+You can access the Couchbase UI at http://retail.vagrant:8091 with credentials: couchbase//couchbase
